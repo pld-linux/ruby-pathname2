@@ -1,12 +1,12 @@
 #
+%define tarname pathname2
 Summary:	Path name manipulation library
 Name:		ruby-pathname2
-%define tarname pathname2
 Version:	1.5.2
 Release:	1
 License:	Ruby-alike
 Group:		Development/Languages
-Source0: http://rubyforge.org/frs/download.php/18293/pathname2-1.5.2.tar.bz2
+Source0:	http://rubyforge.org/frs/download.php/18293/pathname2-%{version}.tar.bz2
 # Source0-md5:	3fba84e5eb164e932c2c9b2206537bff
 URL:		http://shards.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
